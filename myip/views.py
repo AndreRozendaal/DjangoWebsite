@@ -1,10 +1,16 @@
 from django.shortcuts import render
 
+def visitor_ip_address(request):
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    if x_forwarded_for:
+        ip = x_forwarded_for.split(',')[0]
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    return ip
+
 def myip(request): 
     context = { 
-                    'myip' : request.META.get("REMOTE_ADDR"),
-                    'myhost' : request.META.get("REMOTE_HOST"),
-                    'forwarded_for' : request.META.get("X_FORWARDED_FOR"),
+                    'myip' : visitor_ip_address),
               }
 
     return render(request, 'myip.html', context)

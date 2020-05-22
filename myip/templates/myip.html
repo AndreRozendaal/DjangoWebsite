@@ -3,9 +3,5 @@
 {% block content %}
    <h1>Myip</h1>
    Your ip: {{ myip }} <BR>
-   Your ip: {{ forwarded_for }} <BR>
-   {% if myhost.strip %}
-   Your hostname: {{ myhost }} <BR>
-   {% endif %}
 
 {% endblock %}
