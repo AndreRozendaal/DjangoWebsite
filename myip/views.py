@@ -10,7 +10,7 @@ def visitor_ip_address(request):
 
 def myip(request): 
     context = { 
-                    'myip' : visitor_ip_address),
+                    'myip' : visitor_ip_address(request),
               }
 
     return render(request, 'myip.html', context)
