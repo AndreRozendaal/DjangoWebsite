@@ -1,0 +1,10 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+   <h1>Myip</h1>
+   Your ip: {{ myip }} <BR>
+   {% if myhost.strip %}
+   Your hostname: {{ myhost }} <BR>
+   {% endif %}
+
+{% endblock %}
