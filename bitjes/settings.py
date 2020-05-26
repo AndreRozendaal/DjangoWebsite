@@ -122,8 +122,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-#CSRF_COOKIE_SECURE = True
-#CSRF_COOKIE_SAMESIRE = 'Strict'
+CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SAMESIRE = 'Strict'
 #SESSION_COOKIE_SECURE = True
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
