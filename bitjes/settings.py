@@ -51,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'csp.middleware.CSPMiddleware',
 ]
 
 ROOT_URLCONF = 'bitjes.urls'
@@ -132,3 +133,7 @@ X_FRAME_OPTIONS = 'DENY'
 SECURE_HSTS_SECONDS = 300
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
+CSP_DEFAULT_SRC=("none",)
+CSP_STYLE_SRC=("self",)
+CSP_SCRIPT_SRC=("self",)
+CSP_FONT_SRC=("self",)
