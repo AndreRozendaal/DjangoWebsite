@@ -1,0 +1,860 @@
+2020.05.27 15:12:30 LOG5[ui]: stunnel 5.56 on x86_64-redhat-linux-gnu platform
+2020.05.27 15:12:30 LOG5[ui]: Compiled with OpenSSL 1.1.1d FIPS  10 Sep 2019
+2020.05.27 15:12:30 LOG5[ui]: Running  with OpenSSL 1.1.1g FIPS  21 Apr 2020
+2020.05.27 15:12:30 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2020.05.27 15:12:30 LOG5[ui]: Reading configuration from file /home/andrerozendaal/repo/DjangoWebsite/stunnel/dev_https
+2020.05.27 15:12:30 LOG5[ui]: UTF-8 byte order mark not detected
+2020.05.27 15:12:30 LOG5[ui]: FIPS mode disabled
+2020.05.27 15:12:30 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.05.27 15:12:30 LOG5[ui]: Configuration successful
+2020.05.27 15:12:30 LOG5[ui]: Binding service [https] to :::8443: Address already in use (98)
+2020.05.27 15:12:30 LOG5[cron]: Updating DH parameters
+2020.05.27 15:12:32 LOG3[ui]: Received SIGINT; terminating
+2020.05.27 15:12:32 LOG5[ui]: Terminating 1 service thread(s)
+2020.05.27 15:12:32 LOG5[ui]: Service threads terminated
+2020.05.27 15:13:23 LOG5[ui]: stunnel 5.56 on x86_64-redhat-linux-gnu platform
+2020.05.27 15:13:23 LOG5[ui]: Compiled with OpenSSL 1.1.1d FIPS  10 Sep 2019
+2020.05.27 15:13:23 LOG5[ui]: Running  with OpenSSL 1.1.1g FIPS  21 Apr 2020
+2020.05.27 15:13:23 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2020.05.27 15:13:23 LOG5[ui]: Reading configuration from file /home/andrerozendaal/repo/DjangoWebsite/stunnel/dev_https
+2020.05.27 15:13:23 LOG5[ui]: UTF-8 byte order mark not detected
+2020.05.27 15:13:23 LOG5[ui]: FIPS mode disabled
+2020.05.27 15:13:23 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.05.27 15:13:23 LOG5[ui]: Configuration successful
+2020.05.27 15:13:23 LOG5[ui]: Binding service [https] to :::8443: Address already in use (98)
+2020.05.27 15:13:23 LOG5[cron]: Updating DH parameters
+2020.05.27 15:13:36 LOG3[ui]: Received SIGINT; terminating
+2020.05.27 15:13:36 LOG5[ui]: Terminating 1 service thread(s)
+2020.05.27 15:13:36 LOG5[ui]: Service threads terminated
+2020.05.27 15:13:42 LOG5[ui]: stunnel 5.56 on x86_64-redhat-linux-gnu platform
+2020.05.27 15:13:42 LOG5[ui]: Compiled with OpenSSL 1.1.1d FIPS  10 Sep 2019
+2020.05.27 15:13:42 LOG5[ui]: Running  with OpenSSL 1.1.1g FIPS  21 Apr 2020
+2020.05.27 15:13:42 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2020.05.27 15:13:42 LOG5[ui]: Reading configuration from file /home/andrerozendaal/repo/DjangoWebsite/stunnel/dev_https
+2020.05.27 15:13:42 LOG5[ui]: UTF-8 byte order mark not detected
+2020.05.27 15:13:42 LOG5[ui]: FIPS mode disabled
+2020.05.27 15:13:42 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.05.27 15:13:42 LOG5[ui]: Configuration successful
+2020.05.27 15:13:42 LOG5[ui]: Binding service [https] to :::8443: Address already in use (98)
+2020.05.27 15:13:42 LOG5[cron]: Updating DH parameters
+2020.05.27 15:13:44 LOG3[ui]: Received SIGINT; terminating
+2020.05.27 15:13:44 LOG5[ui]: Terminating 1 service thread(s)
+2020.05.27 15:13:44 LOG5[ui]: Service threads terminated
+2020.05.27 15:14:14 LOG5[ui]: stunnel 5.56 on x86_64-redhat-linux-gnu platform
+2020.05.27 15:14:14 LOG5[ui]: Compiled with OpenSSL 1.1.1d FIPS  10 Sep 2019
+2020.05.27 15:14:14 LOG5[ui]: Running  with OpenSSL 1.1.1g FIPS  21 Apr 2020
+2020.05.27 15:14:14 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2020.05.27 15:14:14 LOG5[ui]: Reading configuration from file /home/andrerozendaal/repo/DjangoWebsite/stunnel/dev_https
+2020.05.27 15:14:14 LOG5[ui]: UTF-8 byte order mark not detected
+2020.05.27 15:14:14 LOG5[ui]: FIPS mode disabled
+2020.05.27 15:14:14 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.05.27 15:14:14 LOG5[ui]: Configuration successful
+2020.05.27 15:14:14 LOG5[ui]: Binding service [https] to :::8442: Address already in use (98)
+2020.05.27 15:14:14 LOG5[cron]: Updating DH parameters
+2020.05.27 15:16:02 LOG5[0]: Service [https] accepted connection from 127.0.0.1:48498
+2020.05.27 15:16:02 LOG3[0]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:02 LOG3[0]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:02 LOG3[0]: No more addresses to connect
+2020.05.27 15:16:02 LOG5[0]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[1]: Service [https] accepted connection from 127.0.0.1:48508
+2020.05.27 15:16:07 LOG3[1]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[1]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[1]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[1]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[2]: Service [https] accepted connection from 127.0.0.1:48514
+2020.05.27 15:16:07 LOG5[2]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[2]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[2]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[2]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[2]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[3]: Service [https] accepted connection from 127.0.0.1:48520
+2020.05.27 15:16:07 LOG5[3]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[3]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[3]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[3]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[3]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[4]: Service [https] accepted connection from 127.0.0.1:48526
+2020.05.27 15:16:07 LOG5[4]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[4]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[4]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[4]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[4]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[5]: Service [https] accepted connection from 127.0.0.1:48532
+2020.05.27 15:16:07 LOG5[5]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[5]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[5]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[5]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[5]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[6]: Service [https] accepted connection from 127.0.0.1:48538
+2020.05.27 15:16:07 LOG5[6]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[6]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[6]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[6]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[6]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[7]: Service [https] accepted connection from 127.0.0.1:48544
+2020.05.27 15:16:07 LOG5[7]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[7]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[7]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[7]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[7]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[8]: Service [https] accepted connection from 127.0.0.1:48550
+2020.05.27 15:16:07 LOG5[8]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[8]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[8]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[8]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[9]: Service [https] accepted connection from 127.0.0.1:48556
+2020.05.27 15:16:07 LOG5[9]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[9]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[9]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[9]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:07 LOG5[10]: Service [https] accepted connection from 127.0.0.1:48562
+2020.05.27 15:16:07 LOG5[10]: persistence: No cached address found
+2020.05.27 15:16:07 LOG3[10]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[10]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:07 LOG3[10]: No more addresses to connect
+2020.05.27 15:16:07 LOG5[10]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[11]: Service [https] accepted connection from 127.0.0.1:48568
+2020.05.27 15:16:32 LOG5[11]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[11]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[11]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[11]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[11]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[12]: Service [https] accepted connection from 127.0.0.1:48574
+2020.05.27 15:16:32 LOG5[12]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[12]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[12]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[12]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[12]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[13]: Service [https] accepted connection from 127.0.0.1:48580
+2020.05.27 15:16:32 LOG5[13]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[13]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[13]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[13]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[13]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[14]: Service [https] accepted connection from 127.0.0.1:48586
+2020.05.27 15:16:32 LOG5[14]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[14]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[14]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[14]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[14]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[15]: Service [https] accepted connection from 127.0.0.1:48592
+2020.05.27 15:16:32 LOG5[15]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[15]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[15]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[15]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[15]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[16]: Service [https] accepted connection from 127.0.0.1:48598
+2020.05.27 15:16:32 LOG5[16]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[16]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[16]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[16]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[16]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[17]: Service [https] accepted connection from 127.0.0.1:48604
+2020.05.27 15:16:32 LOG5[17]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[17]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[17]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[17]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[17]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[18]: Service [https] accepted connection from 127.0.0.1:48610
+2020.05.27 15:16:32 LOG5[18]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[18]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[18]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[18]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[18]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[19]: Service [https] accepted connection from 127.0.0.1:48616
+2020.05.27 15:16:32 LOG5[19]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[19]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[19]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[19]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[19]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:32 LOG5[20]: Service [https] accepted connection from 127.0.0.1:48622
+2020.05.27 15:16:32 LOG5[20]: persistence: No cached address found
+2020.05.27 15:16:32 LOG3[20]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[20]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:32 LOG3[20]: No more addresses to connect
+2020.05.27 15:16:32 LOG5[20]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[21]: Service [https] accepted connection from 127.0.0.1:48628
+2020.05.27 15:16:33 LOG5[21]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[21]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[21]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[21]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[21]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[22]: Service [https] accepted connection from 127.0.0.1:48634
+2020.05.27 15:16:33 LOG5[22]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[22]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[22]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[22]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[22]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[23]: Service [https] accepted connection from 127.0.0.1:48640
+2020.05.27 15:16:33 LOG5[23]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[23]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[23]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[23]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[23]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[24]: Service [https] accepted connection from 127.0.0.1:48646
+2020.05.27 15:16:33 LOG5[24]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[24]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[24]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[24]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[24]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[25]: Service [https] accepted connection from 127.0.0.1:48652
+2020.05.27 15:16:33 LOG5[25]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[25]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[25]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[25]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[25]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[26]: Service [https] accepted connection from 127.0.0.1:48658
+2020.05.27 15:16:33 LOG5[26]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[26]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[26]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[26]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[26]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[27]: Service [https] accepted connection from 127.0.0.1:48664
+2020.05.27 15:16:33 LOG5[27]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[27]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[27]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[27]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[27]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[28]: Service [https] accepted connection from 127.0.0.1:48670
+2020.05.27 15:16:33 LOG5[28]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[28]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[28]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[28]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[28]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[29]: Service [https] accepted connection from 127.0.0.1:48676
+2020.05.27 15:16:33 LOG5[29]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[29]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[29]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[29]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[29]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:33 LOG5[30]: Service [https] accepted connection from 127.0.0.1:48682
+2020.05.27 15:16:33 LOG5[30]: persistence: No cached address found
+2020.05.27 15:16:33 LOG3[30]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[30]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:33 LOG3[30]: No more addresses to connect
+2020.05.27 15:16:33 LOG5[30]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[31]: Service [https] accepted connection from 127.0.0.1:48688
+2020.05.27 15:16:34 LOG5[31]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[31]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[31]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[31]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[31]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[32]: Service [https] accepted connection from 127.0.0.1:48694
+2020.05.27 15:16:34 LOG5[32]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[32]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[32]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[32]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[32]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[33]: Service [https] accepted connection from 127.0.0.1:48700
+2020.05.27 15:16:34 LOG5[33]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[33]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[33]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[33]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[33]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[34]: Service [https] accepted connection from 127.0.0.1:48706
+2020.05.27 15:16:34 LOG5[34]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[34]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[34]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[34]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[34]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[35]: Service [https] accepted connection from 127.0.0.1:48712
+2020.05.27 15:16:34 LOG5[35]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[35]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[35]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[35]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[35]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[36]: Service [https] accepted connection from 127.0.0.1:48718
+2020.05.27 15:16:34 LOG5[36]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[36]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[36]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[36]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[36]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[37]: Service [https] accepted connection from 127.0.0.1:48724
+2020.05.27 15:16:34 LOG5[37]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[37]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[37]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[37]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[37]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[38]: Service [https] accepted connection from 127.0.0.1:48730
+2020.05.27 15:16:34 LOG5[38]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[38]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[38]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[38]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[38]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[39]: Service [https] accepted connection from 127.0.0.1:48736
+2020.05.27 15:16:34 LOG5[39]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[39]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[39]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[39]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[39]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:34 LOG5[40]: Service [https] accepted connection from 127.0.0.1:48742
+2020.05.27 15:16:34 LOG5[40]: persistence: No cached address found
+2020.05.27 15:16:34 LOG3[40]: s_connect: connect ::1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[40]: s_connect: connect 127.0.0.1:8001: Connection refused (111)
+2020.05.27 15:16:34 LOG3[40]: No more addresses to connect
+2020.05.27 15:16:34 LOG5[40]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 15:16:45 LOG3[ui]: Received SIGINT; terminating
+2020.05.27 15:16:45 LOG5[ui]: Terminating 1 service thread(s)
+2020.05.27 15:16:45 LOG5[ui]: Service threads terminated
+2020.05.27 15:16:50 LOG5[ui]: stunnel 5.56 on x86_64-redhat-linux-gnu platform
+2020.05.27 15:16:50 LOG5[ui]: Compiled with OpenSSL 1.1.1d FIPS  10 Sep 2019
+2020.05.27 15:16:50 LOG5[ui]: Running  with OpenSSL 1.1.1g FIPS  21 Apr 2020
+2020.05.27 15:16:50 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2020.05.27 15:16:50 LOG5[ui]: Reading configuration from file /home/andrerozendaal/repo/DjangoWebsite/stunnel/dev_https
+2020.05.27 15:16:50 LOG5[ui]: UTF-8 byte order mark not detected
+2020.05.27 15:16:50 LOG5[ui]: FIPS mode disabled
+2020.05.27 15:16:50 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.05.27 15:16:50 LOG5[ui]: Configuration successful
+2020.05.27 15:16:50 LOG5[ui]: Binding service [https] to :::8442: Address already in use (98)
+2020.05.27 15:16:50 LOG5[cron]: Updating DH parameters
+2020.05.27 15:16:59 LOG5[0]: Service [https] accepted connection from 127.0.0.1:48750
+2020.05.27 15:16:59 LOG3[0]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:16:59 LOG5[0]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:16:59 LOG5[0]: Service [https] connected remote server from 127.0.0.1:39290
+2020.05.27 15:17:14 LOG5[cron]: DH parameters updated
+2020.05.27 15:17:18 LOG5[0]: Connection closed: 13238 byte(s) sent to TLS, 3392 byte(s) sent to socket
+2020.05.27 15:17:28 LOG3[ui]: Received SIGINT; terminating
+2020.05.27 15:17:28 LOG5[ui]: Terminating 1 service thread(s)
+2020.05.27 15:17:28 LOG5[ui]: Service threads terminated
+2020.05.27 15:18:52 LOG5[ui]: stunnel 5.56 on x86_64-redhat-linux-gnu platform
+2020.05.27 15:18:52 LOG5[ui]: Compiled with OpenSSL 1.1.1d FIPS  10 Sep 2019
+2020.05.27 15:18:52 LOG5[ui]: Running  with OpenSSL 1.1.1g FIPS  21 Apr 2020
+2020.05.27 15:18:52 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2020.05.27 15:18:52 LOG5[ui]: Reading configuration from file /home/andrerozendaal/repo/DjangoWebsite/stunnel/dev_https
+2020.05.27 15:18:52 LOG5[ui]: UTF-8 byte order mark not detected
+2020.05.27 15:18:52 LOG5[ui]: FIPS mode disabled
+2020.05.27 15:18:52 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.05.27 15:18:52 LOG5[ui]: Configuration successful
+2020.05.27 15:18:52 LOG5[ui]: Binding service [https] to :::8442: Address already in use (98)
+2020.05.27 15:18:52 LOG5[cron]: Updating DH parameters
+2020.05.27 15:18:56 LOG5[0]: Service [https] accepted connection from 127.0.0.1:48772
+2020.05.27 15:18:56 LOG3[0]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:18:56 LOG5[0]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:18:56 LOG5[0]: Service [https] connected remote server from 127.0.0.1:39312
+2020.05.27 15:21:13 LOG5[0]: Connection closed: 18085 byte(s) sent to TLS, 4806 byte(s) sent to socket
+2020.05.27 15:22:46 LOG5[1]: Service [https] accepted connection from 127.0.0.1:48900
+2020.05.27 15:22:46 LOG5[1]: persistence: No cached address found
+2020.05.27 15:22:46 LOG3[1]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:22:46 LOG5[1]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:22:46 LOG5[1]: Service [https] connected remote server from 127.0.0.1:39440
+2020.05.27 15:24:41 LOG5[1]: Connection closed: 3900 byte(s) sent to TLS, 410 byte(s) sent to socket
+2020.05.27 15:39:03 LOG5[2]: Service [https] accepted connection from 127.0.0.1:49144
+2020.05.27 15:39:03 LOG3[2]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:39:03 LOG5[2]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:39:03 LOG5[2]: Service [https] connected remote server from 127.0.0.1:39684
+2020.05.27 15:39:47 LOG5[2]: Connection closed: 23420 byte(s) sent to TLS, 2313 byte(s) sent to socket
+2020.05.27 15:40:09 LOG5[ui]: Terminated
+2020.05.27 15:40:09 LOG5[ui]: Terminating 1 service thread(s)
+2020.05.27 15:40:09 LOG5[ui]: Service threads terminated
+2020.05.27 15:40:20 LOG5[ui]: stunnel 5.56 on x86_64-redhat-linux-gnu platform
+2020.05.27 15:40:20 LOG5[ui]: Compiled with OpenSSL 1.1.1d FIPS  10 Sep 2019
+2020.05.27 15:40:20 LOG5[ui]: Running  with OpenSSL 1.1.1g FIPS  21 Apr 2020
+2020.05.27 15:40:20 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2020.05.27 15:40:20 LOG5[ui]: Reading configuration from file /home/andrerozendaal/repo/DjangoWebsite/stunnel/dev_https
+2020.05.27 15:40:20 LOG5[ui]: UTF-8 byte order mark not detected
+2020.05.27 15:40:20 LOG5[ui]: FIPS mode disabled
+2020.05.27 15:40:20 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.05.27 15:40:20 LOG5[ui]: Configuration successful
+2020.05.27 15:40:20 LOG5[ui]: Binding service [https] to :::8442: Address already in use (98)
+2020.05.27 15:40:20 LOG5[cron]: Updating DH parameters
+2020.05.27 15:40:36 LOG5[0]: Service [https] accepted connection from 127.0.0.1:49156
+2020.05.27 15:40:36 LOG3[0]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:40:36 LOG5[0]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:40:36 LOG5[0]: Service [https] connected remote server from 127.0.0.1:39696
+2020.05.27 15:40:49 LOG5[0]: Connection closed: 12485 byte(s) sent to TLS, 1480 byte(s) sent to socket
+2020.05.27 15:43:26 LOG5[1]: Service [https] accepted connection from 127.0.0.1:49250
+2020.05.27 15:43:26 LOG5[1]: persistence: No cached address found
+2020.05.27 15:43:26 LOG3[1]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:43:26 LOG5[1]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:43:26 LOG5[1]: Service [https] connected remote server from 127.0.0.1:39790
+2020.05.27 15:45:27 LOG5[1]: Connection closed: 171791 byte(s) sent to TLS, 1099 byte(s) sent to socket
+2020.05.27 15:47:27 LOG5[2]: Service [https] accepted connection from 127.0.0.1:49312
+2020.05.27 15:47:27 LOG3[2]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:47:27 LOG5[2]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:47:27 LOG5[2]: Service [https] connected remote server from 127.0.0.1:39852
+2020.05.27 15:47:43 LOG5[2]: Connection closed: 184612 byte(s) sent to TLS, 1095 byte(s) sent to socket
+2020.05.27 15:48:08 LOG5[3]: Service [https] accepted connection from 127.0.0.1:49320
+2020.05.27 15:48:08 LOG5[3]: persistence: No cached address found
+2020.05.27 15:48:08 LOG3[3]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:48:08 LOG5[3]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:48:08 LOG5[3]: Service [https] connected remote server from 127.0.0.1:39860
+2020.05.27 15:50:09 LOG5[3]: Connection closed: 193172 byte(s) sent to TLS, 1861 byte(s) sent to socket
+2020.05.27 15:50:45 LOG5[cron]: DH parameters updated
+2020.05.27 15:54:00 LOG5[4]: Service [https] accepted connection from 127.0.0.1:49506
+2020.05.27 15:54:01 LOG3[4]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:54:01 LOG5[4]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:54:01 LOG5[4]: Service [https] connected remote server from 127.0.0.1:40046
+2020.05.27 15:54:02 LOG3[4]: TLS socket closed (write hangup) with 37 unsent byte(s)
+2020.05.27 15:54:02 LOG5[4]: Connection reset: 182493 byte(s) sent to TLS, 972 byte(s) sent to socket
+2020.05.27 15:54:27 LOG5[5]: Service [https] accepted connection from 127.0.0.1:49514
+2020.05.27 15:54:27 LOG5[5]: persistence: No cached address found
+2020.05.27 15:54:27 LOG3[5]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 15:54:27 LOG5[5]: s_connect: connected 127.0.0.1:8000
+2020.05.27 15:54:27 LOG5[5]: Service [https] connected remote server from 127.0.0.1:40054
+2020.05.27 15:56:24 LOG5[5]: Connection closed: 166910 byte(s) sent to TLS, 714 byte(s) sent to socket
+2020.05.27 16:18:50 LOG5[6]: Service [https] accepted connection from 127.0.0.1:49754
+2020.05.27 16:18:50 LOG3[6]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:18:50 LOG5[6]: s_connect: connected 127.0.0.1:8000
+2020.05.27 16:18:50 LOG5[6]: Service [https] connected remote server from 127.0.0.1:40294
+2020.05.27 16:19:17 LOG5[6]: Connection closed: 353692 byte(s) sent to TLS, 3367 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[7]: Service [https] accepted connection from 127.0.0.1:49908
+2020.05.27 16:28:08 LOG5[8]: Service [https] accepted connection from 127.0.0.1:49910
+2020.05.27 16:28:08 LOG3[7]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[7]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[7]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[7]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG3[8]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[8]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[8]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[9]: Service [https] accepted connection from 127.0.0.1:49920
+2020.05.27 16:28:08 LOG5[9]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[9]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[9]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[9]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[10]: Service [https] accepted connection from 127.0.0.1:49926
+2020.05.27 16:28:08 LOG5[10]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[10]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[10]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[10]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[10]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[11]: Service [https] accepted connection from 127.0.0.1:49932
+2020.05.27 16:28:08 LOG5[11]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[11]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[11]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[11]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[11]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[12]: Service [https] accepted connection from 127.0.0.1:49938
+2020.05.27 16:28:08 LOG5[12]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[12]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[12]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[12]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[12]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[13]: Service [https] accepted connection from 127.0.0.1:49944
+2020.05.27 16:28:08 LOG5[13]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[13]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[13]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[13]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[13]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[14]: Service [https] accepted connection from 127.0.0.1:49950
+2020.05.27 16:28:08 LOG5[14]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[14]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[14]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[14]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[14]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[15]: Service [https] accepted connection from 127.0.0.1:49956
+2020.05.27 16:28:08 LOG5[15]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[15]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[15]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[15]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[15]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[16]: Service [https] accepted connection from 127.0.0.1:49962
+2020.05.27 16:28:08 LOG5[16]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[16]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[16]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[16]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[16]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 16:28:08 LOG5[17]: Service [https] accepted connection from 127.0.0.1:49968
+2020.05.27 16:28:08 LOG5[17]: persistence: No cached address found
+2020.05.27 16:28:08 LOG3[17]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[17]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 16:28:08 LOG3[17]: No more addresses to connect
+2020.05.27 16:28:08 LOG5[17]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:25:56 LOG5[18]: Service [https] accepted connection from 127.0.0.1:51466
+2020.05.27 17:25:56 LOG3[18]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:25:56 LOG5[18]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:25:56 LOG5[18]: Service [https] connected remote server from 127.0.0.1:42006
+2020.05.27 17:26:11 LOG5[18]: Connection closed: 174878 byte(s) sent to TLS, 1484 byte(s) sent to socket
+2020.05.27 17:26:37 LOG5[19]: Service [https] accepted connection from 127.0.0.1:51502
+2020.05.27 17:26:37 LOG5[19]: persistence: No cached address found
+2020.05.27 17:26:37 LOG3[19]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:26:37 LOG5[19]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:26:37 LOG5[19]: Service [https] connected remote server from 127.0.0.1:42042
+2020.05.27 17:26:49 LOG5[19]: Connection closed: 7666 byte(s) sent to TLS, 411 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[20]: Service [https] accepted connection from 127.0.0.1:51530
+2020.05.27 17:28:37 LOG5[20]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[20]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[20]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[20]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[20]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[21]: Service [https] accepted connection from 127.0.0.1:51536
+2020.05.27 17:28:37 LOG5[21]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[21]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[21]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[21]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[21]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[22]: Service [https] accepted connection from 127.0.0.1:51542
+2020.05.27 17:28:37 LOG5[22]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[22]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[22]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[22]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[22]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[23]: Service [https] accepted connection from 127.0.0.1:51548
+2020.05.27 17:28:37 LOG5[23]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[23]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[23]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[23]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[23]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[24]: Service [https] accepted connection from 127.0.0.1:51554
+2020.05.27 17:28:37 LOG5[24]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[24]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[24]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[24]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[24]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[25]: Service [https] accepted connection from 127.0.0.1:51560
+2020.05.27 17:28:37 LOG5[25]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[25]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[25]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[25]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[25]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[26]: Service [https] accepted connection from 127.0.0.1:51566
+2020.05.27 17:28:37 LOG5[26]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[26]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[26]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[26]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[26]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[27]: Service [https] accepted connection from 127.0.0.1:51572
+2020.05.27 17:28:37 LOG5[27]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[27]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[27]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[27]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[27]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[28]: Service [https] accepted connection from 127.0.0.1:51578
+2020.05.27 17:28:37 LOG5[28]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[28]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[28]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[28]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[28]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:37 LOG5[29]: Service [https] accepted connection from 127.0.0.1:51584
+2020.05.27 17:28:37 LOG5[29]: persistence: No cached address found
+2020.05.27 17:28:37 LOG3[29]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[29]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:28:37 LOG3[29]: No more addresses to connect
+2020.05.27 17:28:37 LOG5[29]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:28:45 LOG5[30]: Service [https] accepted connection from 127.0.0.1:51590
+2020.05.27 17:28:45 LOG5[30]: persistence: No cached address found
+2020.05.27 17:28:45 LOG3[30]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:28:45 LOG5[30]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:28:45 LOG5[30]: Service [https] connected remote server from 127.0.0.1:42130
+2020.05.27 17:28:59 LOG5[30]: Connection closed: 183028 byte(s) sent to TLS, 411 byte(s) sent to socket
+2020.05.27 17:30:02 LOG5[31]: Service [https] accepted connection from 127.0.0.1:51598
+2020.05.27 17:30:02 LOG5[31]: persistence: No cached address found
+2020.05.27 17:30:02 LOG3[31]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:30:02 LOG5[31]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:30:02 LOG5[31]: Service [https] connected remote server from 127.0.0.1:42138
+2020.05.27 17:30:45 LOG5[31]: Connection closed: 7681 byte(s) sent to TLS, 411 byte(s) sent to socket
+2020.05.27 17:31:18 LOG5[32]: Service [https] accepted connection from 127.0.0.1:51614
+2020.05.27 17:31:18 LOG3[32]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:31:18 LOG5[32]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:31:18 LOG5[32]: Service [https] connected remote server from 127.0.0.1:42154
+2020.05.27 17:32:33 LOG5[32]: Connection closed: 7664 byte(s) sent to TLS, 411 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[33]: Service [https] accepted connection from 127.0.0.1:51750
+2020.05.27 17:34:56 LOG5[33]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[33]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[33]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[33]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[33]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[34]: Service [https] accepted connection from 127.0.0.1:51756
+2020.05.27 17:34:56 LOG5[34]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[34]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[34]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[34]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[34]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[35]: Service [https] accepted connection from 127.0.0.1:51762
+2020.05.27 17:34:56 LOG5[35]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[35]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[35]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[35]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[35]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[36]: Service [https] accepted connection from 127.0.0.1:51768
+2020.05.27 17:34:56 LOG5[36]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[36]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[36]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[36]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[36]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[37]: Service [https] accepted connection from 127.0.0.1:51774
+2020.05.27 17:34:56 LOG5[37]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[37]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[37]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[37]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[37]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[38]: Service [https] accepted connection from 127.0.0.1:51780
+2020.05.27 17:34:56 LOG5[38]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[38]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[38]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[38]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[38]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[39]: Service [https] accepted connection from 127.0.0.1:51786
+2020.05.27 17:34:56 LOG5[39]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[39]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[39]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[39]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[39]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[40]: Service [https] accepted connection from 127.0.0.1:51792
+2020.05.27 17:34:56 LOG5[40]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[40]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[40]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[40]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[40]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[41]: Service [https] accepted connection from 127.0.0.1:51798
+2020.05.27 17:34:56 LOG5[41]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[41]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[41]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[41]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[41]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:34:56 LOG5[42]: Service [https] accepted connection from 127.0.0.1:51804
+2020.05.27 17:34:56 LOG5[42]: persistence: No cached address found
+2020.05.27 17:34:56 LOG3[42]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[42]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:34:56 LOG3[42]: No more addresses to connect
+2020.05.27 17:34:56 LOG5[42]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:35:04 LOG5[43]: Service [https] accepted connection from 127.0.0.1:51810
+2020.05.27 17:35:04 LOG5[43]: persistence: No cached address found
+2020.05.27 17:35:04 LOG3[43]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:35:04 LOG5[43]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:35:04 LOG5[43]: Service [https] connected remote server from 127.0.0.1:42350
+2020.05.27 17:35:09 LOG5[43]: Connection closed: 7646 byte(s) sent to TLS, 411 byte(s) sent to socket
+2020.05.27 17:35:47 LOG5[44]: Service [https] accepted connection from 127.0.0.1:51824
+2020.05.27 17:35:47 LOG5[44]: persistence: No cached address found
+2020.05.27 17:35:47 LOG3[44]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:35:47 LOG5[44]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:35:47 LOG5[44]: Service [https] connected remote server from 127.0.0.1:42364
+2020.05.27 17:36:08 LOG5[44]: Connection closed: 15248 byte(s) sent to TLS, 755 byte(s) sent to socket
+2020.05.27 17:37:00 LOG5[45]: Service [https] accepted connection from 127.0.0.1:51844
+2020.05.27 17:37:00 LOG3[45]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:37:00 LOG5[45]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:37:00 LOG5[45]: Service [https] connected remote server from 127.0.0.1:42384
+2020.05.27 17:39:08 LOG5[45]: Connection closed: 19384 byte(s) sent to TLS, 1085 byte(s) sent to socket
+2020.05.27 17:40:28 LOG5[46]: Service [https] accepted connection from 127.0.0.1:51860
+2020.05.27 17:40:28 LOG5[46]: persistence: No cached address found
+2020.05.27 17:40:28 LOG3[46]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:40:28 LOG5[46]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:40:28 LOG5[46]: Service [https] connected remote server from 127.0.0.1:42400
+2020.05.27 17:41:08 LOG5[46]: Connection closed: 11683 byte(s) sent to TLS, 715 byte(s) sent to socket
+2020.05.27 17:41:48 LOG5[47]: Service [https] accepted connection from 127.0.0.1:51868
+2020.05.27 17:41:48 LOG5[47]: persistence: No cached address found
+2020.05.27 17:41:48 LOG3[47]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:41:48 LOG5[47]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:41:48 LOG5[47]: Service [https] connected remote server from 127.0.0.1:42408
+2020.05.27 17:41:48 LOG3[47]: TLS socket closed (write hangup) with 37 unsent byte(s)
+2020.05.27 17:41:48 LOG5[47]: Connection reset: 8499 byte(s) sent to TLS, 908 byte(s) sent to socket
+2020.05.27 17:41:57 LOG5[48]: Service [https] accepted connection from 127.0.0.1:51882
+2020.05.27 17:41:57 LOG5[48]: persistence: No cached address found
+2020.05.27 17:41:57 LOG3[48]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:41:57 LOG5[48]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:41:57 LOG5[48]: Service [https] connected remote server from 127.0.0.1:42422
+2020.05.27 17:42:29 LOG5[48]: Connection closed: 7389 byte(s) sent to TLS, 752 byte(s) sent to socket
+2020.05.27 17:45:04 LOG5[49]: Service [https] accepted connection from 127.0.0.1:51972
+2020.05.27 17:45:04 LOG3[49]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:45:04 LOG5[49]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:45:04 LOG5[49]: Service [https] connected remote server from 127.0.0.1:42512
+2020.05.27 17:45:23 LOG5[49]: Connection closed: 3990 byte(s) sent to TLS, 378 byte(s) sent to socket
+2020.05.27 17:45:57 LOG5[50]: Service [https] accepted connection from 127.0.0.1:51986
+2020.05.27 17:45:57 LOG5[50]: persistence: No cached address found
+2020.05.27 17:45:57 LOG3[50]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:45:57 LOG5[50]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:45:57 LOG5[50]: Service [https] connected remote server from 127.0.0.1:42526
+2020.05.27 17:46:03 LOG5[50]: Connection closed: 3983 byte(s) sent to TLS, 371 byte(s) sent to socket
+2020.05.27 17:47:17 LOG5[51]: Service [https] accepted connection from 127.0.0.1:52002
+2020.05.27 17:47:17 LOG5[51]: persistence: No cached address found
+2020.05.27 17:47:17 LOG3[51]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:47:17 LOG5[51]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:47:17 LOG5[51]: Service [https] connected remote server from 127.0.0.1:42542
+2020.05.27 17:47:35 LOG5[51]: Connection closed: 4113 byte(s) sent to TLS, 772 byte(s) sent to socket
+2020.05.27 17:48:06 LOG5[52]: Service [https] accepted connection from 127.0.0.1:52010
+2020.05.27 17:48:06 LOG5[52]: persistence: No cached address found
+2020.05.27 17:48:06 LOG3[52]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:48:06 LOG5[52]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:48:06 LOG5[52]: Service [https] connected remote server from 127.0.0.1:42550
+2020.05.27 17:48:54 LOG5[52]: Connection closed: 175754 byte(s) sent to TLS, 1527 byte(s) sent to socket
+2020.05.27 17:50:53 LOG5[53]: Service [https] accepted connection from 127.0.0.1:52040
+2020.05.27 17:50:53 LOG3[53]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:50:53 LOG5[53]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:50:53 LOG5[53]: Service [https] connected remote server from 127.0.0.1:42580
+2020.05.27 17:51:23 LOG5[53]: Connection closed: 8103 byte(s) sent to TLS, 786 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[54]: Service [https] accepted connection from 127.0.0.1:52104
+2020.05.27 17:53:34 LOG5[54]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[54]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[54]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[54]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[54]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[55]: Service [https] accepted connection from 127.0.0.1:52110
+2020.05.27 17:53:34 LOG5[55]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[55]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[55]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[55]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[55]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[56]: Service [https] accepted connection from 127.0.0.1:52116
+2020.05.27 17:53:34 LOG5[56]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[56]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[56]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[56]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[56]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[57]: Service [https] accepted connection from 127.0.0.1:52122
+2020.05.27 17:53:34 LOG5[57]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[57]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[57]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[57]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[57]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[58]: Service [https] accepted connection from 127.0.0.1:52128
+2020.05.27 17:53:34 LOG5[58]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[58]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[58]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[58]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[58]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[59]: Service [https] accepted connection from 127.0.0.1:52134
+2020.05.27 17:53:34 LOG5[59]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[59]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[59]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[59]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[59]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[60]: Service [https] accepted connection from 127.0.0.1:52140
+2020.05.27 17:53:34 LOG5[60]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[60]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[60]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[60]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[60]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[61]: Service [https] accepted connection from 127.0.0.1:52146
+2020.05.27 17:53:34 LOG5[61]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[61]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[61]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[61]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[61]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[62]: Service [https] accepted connection from 127.0.0.1:52152
+2020.05.27 17:53:34 LOG5[62]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[62]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[62]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[62]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[62]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:34 LOG5[63]: Service [https] accepted connection from 127.0.0.1:52158
+2020.05.27 17:53:34 LOG5[63]: persistence: No cached address found
+2020.05.27 17:53:34 LOG3[63]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[63]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:53:34 LOG3[63]: No more addresses to connect
+2020.05.27 17:53:34 LOG5[63]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:53:43 LOG5[64]: Service [https] accepted connection from 127.0.0.1:52164
+2020.05.27 17:53:43 LOG5[64]: persistence: No cached address found
+2020.05.27 17:53:43 LOG3[64]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:53:43 LOG5[64]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:53:43 LOG5[64]: Service [https] connected remote server from 127.0.0.1:42704
+2020.05.27 17:53:43 LOG3[64]: TLS socket closed (write hangup) with 37 unsent byte(s)
+2020.05.27 17:53:43 LOG5[64]: Connection reset: 9213 byte(s) sent to TLS, 1020 byte(s) sent to socket
+2020.05.27 17:55:34 LOG5[65]: Service [https] accepted connection from 127.0.0.1:52178
+2020.05.27 17:55:34 LOG5[65]: persistence: No cached address found
+2020.05.27 17:55:34 LOG3[65]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:55:34 LOG5[65]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:55:34 LOG5[65]: Service [https] connected remote server from 127.0.0.1:42718
+2020.05.27 17:55:57 LOG5[65]: Connection closed: 37656 byte(s) sent to TLS, 3232 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[66]: Service [https] accepted connection from 127.0.0.1:52184
+2020.05.27 17:56:43 LOG3[66]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[66]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[66]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[66]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[67]: Service [https] accepted connection from 127.0.0.1:52190
+2020.05.27 17:56:43 LOG5[67]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[67]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[67]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[67]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[67]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[68]: Service [https] accepted connection from 127.0.0.1:52196
+2020.05.27 17:56:43 LOG5[68]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[68]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[68]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[68]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[68]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[69]: Service [https] accepted connection from 127.0.0.1:52202
+2020.05.27 17:56:43 LOG5[69]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[69]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[69]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[69]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[69]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[70]: Service [https] accepted connection from 127.0.0.1:52208
+2020.05.27 17:56:43 LOG5[70]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[70]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[70]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[70]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[70]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[71]: Service [https] accepted connection from 127.0.0.1:52214
+2020.05.27 17:56:43 LOG5[71]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[71]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[71]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[71]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[71]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[72]: Service [https] accepted connection from 127.0.0.1:52220
+2020.05.27 17:56:43 LOG5[72]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[72]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[72]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[72]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[72]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[73]: Service [https] accepted connection from 127.0.0.1:52226
+2020.05.27 17:56:43 LOG5[73]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[73]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[73]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[73]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[73]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[74]: Service [https] accepted connection from 127.0.0.1:52232
+2020.05.27 17:56:43 LOG5[74]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[74]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[74]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[74]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[74]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:43 LOG5[75]: Service [https] accepted connection from 127.0.0.1:52238
+2020.05.27 17:56:43 LOG5[75]: persistence: No cached address found
+2020.05.27 17:56:43 LOG3[75]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[75]: s_connect: connect 127.0.0.1:8000: Connection refused (111)
+2020.05.27 17:56:43 LOG3[75]: No more addresses to connect
+2020.05.27 17:56:43 LOG5[75]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.05.27 17:56:56 LOG5[76]: Service [https] accepted connection from 127.0.0.1:52244
+2020.05.27 17:56:56 LOG5[76]: persistence: No cached address found
+2020.05.27 17:56:56 LOG3[76]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:56:56 LOG5[76]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:56:56 LOG5[76]: Service [https] connected remote server from 127.0.0.1:42784
+2020.05.27 17:57:11 LOG5[76]: Connection closed: 7875 byte(s) sent to TLS, 713 byte(s) sent to socket
+2020.05.27 17:59:05 LOG5[77]: Service [https] accepted connection from 127.0.0.1:52258
+2020.05.27 17:59:05 LOG5[77]: persistence: No cached address found
+2020.05.27 17:59:05 LOG3[77]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:59:05 LOG5[77]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:59:05 LOG5[77]: Service [https] connected remote server from 127.0.0.1:42798
+2020.05.27 17:59:05 LOG5[77]: Connection closed: 6943 byte(s) sent to TLS, 720 byte(s) sent to socket
+2020.05.27 17:59:08 LOG5[78]: Service [https] accepted connection from 127.0.0.1:52264
+2020.05.27 17:59:08 LOG5[78]: persistence: No cached address found
+2020.05.27 17:59:08 LOG3[78]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:59:08 LOG5[78]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:59:08 LOG5[78]: Service [https] connected remote server from 127.0.0.1:42804
+2020.05.27 17:59:08 LOG5[78]: Connection closed: 6943 byte(s) sent to TLS, 660 byte(s) sent to socket
+2020.05.27 17:59:10 LOG5[79]: Service [https] accepted connection from 127.0.0.1:52270
+2020.05.27 17:59:10 LOG5[79]: persistence: No cached address found
+2020.05.27 17:59:10 LOG3[79]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:59:10 LOG5[79]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:59:10 LOG5[79]: Service [https] connected remote server from 127.0.0.1:42810
+2020.05.27 17:59:14 LOG5[79]: Connection closed: 11204 byte(s) sent to TLS, 1031 byte(s) sent to socket
+2020.05.27 17:59:40 LOG5[80]: Service [https] accepted connection from 127.0.0.1:52282
+2020.05.27 17:59:40 LOG5[80]: persistence: No cached address found
+2020.05.27 17:59:40 LOG3[80]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 17:59:40 LOG5[80]: s_connect: connected 127.0.0.1:8000
+2020.05.27 17:59:40 LOG5[80]: Service [https] connected remote server from 127.0.0.1:42822
+2020.05.27 18:00:16 LOG3[80]: TLS socket closed (write hangup) with 5022 unsent byte(s)
+2020.05.27 18:00:16 LOG5[80]: Connection reset: 44900 byte(s) sent to TLS, 6640 byte(s) sent to socket
+2020.05.27 18:00:16 LOG5[81]: Service [https] accepted connection from 127.0.0.1:52288
+2020.05.27 18:00:16 LOG5[81]: persistence: No cached address found
+2020.05.27 18:00:16 LOG3[81]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 18:00:16 LOG5[81]: s_connect: connected 127.0.0.1:8000
+2020.05.27 18:00:16 LOG5[81]: Service [https] connected remote server from 127.0.0.1:42828
+2020.05.27 18:00:16 LOG3[81]: TLS socket closed (write hangup) with 75 unsent byte(s)
+2020.05.27 18:00:16 LOG5[81]: Connection reset: 5131 byte(s) sent to TLS, 782 byte(s) sent to socket
+2020.05.27 18:00:16 LOG5[82]: Service [https] accepted connection from 127.0.0.1:52294
+2020.05.27 18:00:16 LOG5[82]: persistence: No cached address found
+2020.05.27 18:00:16 LOG3[82]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 18:00:16 LOG5[82]: s_connect: connected 127.0.0.1:8000
+2020.05.27 18:00:16 LOG5[82]: Service [https] connected remote server from 127.0.0.1:42834
+2020.05.27 18:00:16 LOG3[82]: TLS socket closed (write hangup) with 75 unsent byte(s)
+2020.05.27 18:00:16 LOG5[82]: Connection reset: 5254 byte(s) sent to TLS, 1167 byte(s) sent to socket
+2020.05.27 18:00:16 LOG5[83]: Service [https] accepted connection from 127.0.0.1:52300
+2020.05.27 18:00:16 LOG5[83]: persistence: No cached address found
+2020.05.27 18:00:16 LOG3[83]: s_connect: connect ::1:8000: Connection refused (111)
+2020.05.27 18:00:16 LOG5[83]: s_connect: connected 127.0.0.1:8000
+2020.05.27 18:00:16 LOG5[83]: Service [https] connected remote server from 127.0.0.1:42840
+2020.05.27 18:00:42 LOG5[83]: Connection closed: 26062 byte(s) sent to TLS, 3534 byte(s) sent to socket

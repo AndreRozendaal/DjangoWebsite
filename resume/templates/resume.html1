@@ -1,20 +1,9 @@
 {% load static %}
+{% block content %}
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-<head>
-
-	<title>Andre Rozendaal | Cloud engineer | andre@bitjes.com</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="{% static "resume.css" %}" media="all" />
-
-</head>
-<body>
+	<style type="text/css"> href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" </style>
+	
+        <style type=text/css"> {% static "resume/resume.css" %}" > </style>
 
 <div id="doc2" class="yui-t7">
 	<div id="inner">
@@ -55,21 +44,20 @@
 
 								<div class="talent">
 									<h2>DevOps</h2>
-									<p></p>
-								</div>
-
-								<div class="talent">
-									<h2>Teamplayer</h2>
-									<p></p>
+									<p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
 								</div>
 
 								<div class="talent">
 									<h2></h2>
-									<p></p>
+									<p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
+								</div>
+
+								<div class="talent">
+									<h2>Project Direction</h2>
+									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
 								</div>
 						</div>
 					</div><!--// .yui-gf -->
-
 					<div class="yui-gf">
 						<div class="yui-u first">
 							<h2>Technical</h2>
@@ -161,6 +149,4 @@
 </div><!--// doc -->
 
 
-</body>
-</html>
-
+{% endblock %}

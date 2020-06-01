@@ -1,5 +1,39 @@
 {% extends 'base.html' %} 
-
+{% load static %}
 {% block content %}
    <h1>Timer</h1>
+
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="{% static "style.css" %} " rel="stylesheet">
+<link rel="shortcut icon" href="{% static "favicon.ico" %}" type="image/x-icon">
+
+<audio id="over_music">
+    <source src="{% static "beepbeep.mp3" %}">
+</audio>
+
+<div>
+    <form method="POST" action="{% url 'custom' %}" style="display:inline">
+        <input name="time" class="time-input" placeholder="e.g. 12/30s/20m/2h">
+        <input type="submit" class="startButton" value="START">
+    </form>
+    &nbsp;&nbsp;
+    <a class="hourButton" href="{% url 'minutes'  num=60 %}">60 Minutes</a>
+    <a class="workButton" href="{% url 'minutes' num=25 %}">25 Minutes</a>
+    <a class="smallButton" href="{% url 'minutes' num=10 %}">10 Minutes</a>
+    <a class="restButton" href="{% url 'minutes' num=5 %}">5 Minutes</a>
+</div>
+
+<div class="timer">
+    <p id="time"></p>
+</div>
+
+
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/timer.js' %}"></script>
+<script>
+  var Seconds = {{ num }};
+</script>
+
+
 {% endblock %}

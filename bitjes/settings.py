@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-gktye1bc+g0mxngbcl-$45rfr8p0ixckc7ij3yhieq4pv+(ix'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -86,6 +86,11 @@ DATABASES = {
 }
 
 
+TEMPLATE_CONTECT_PROCESSORS = (
+      'installed_apps.installed_apps' 
+)
+
+
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
@@ -133,7 +138,7 @@ X_FRAME_OPTIONS = 'DENY'
 SECURE_HSTS_SECONDS = 300
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
-CSP_DEFAULT_SRC=("none", 'https://code.jquery.com/jquery-3.3.1.slim.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' )
-CSP_STYLE_SRC=("self", 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
-CSP_SCRIPT_SRC=("self",)
-CSP_FONT_SRC=("self",)
+CSP_DEFAULT_SRC=( "'self'",'https://code.jquery.com/jquery-3.3.1.slim.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' )
+CSP_STYLE_SRC=("'self'", 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', 'http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css', 'http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css' )
+CSP_SCRIPT_SRC=("'self'", 'https://code.jquery.com/jquery-3.3.1.slim.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+CSP_FONT_SRC=("'self'",)

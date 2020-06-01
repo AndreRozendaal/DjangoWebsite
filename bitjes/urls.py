@@ -20,6 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('homepage.urls')),
     path('resume/', include('resume.urls')),
-    path('timer/', include('timer.urls')),
+    path('timer/', include('timer.urls')), 
     path('myip/', include('myip.urls')),
 ]
