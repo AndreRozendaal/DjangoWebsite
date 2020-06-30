@@ -9,7 +9,16 @@ def visitor_ip_address(request):
         my_ip = request.META.get('REMOTE_ADDR')
     return my_ip
 
+def visitor_hostname(ip): 
+    import socket
+    try: 
+        hname, aliases, ipaddrs = socket.gethostbyaddr(ip)
+    except socket.error: 
+        hname = "Uknown"
+    return hname
+
 def myip(request):
-    context = {'myip' : visitor_ip_address(request)}
+    ip = visitor_ip_address(request)
+    context = {'myip' : ip, 'hostname' : visitor_hostname(ip)}
 
     return render(request, 'myip.html', context)
