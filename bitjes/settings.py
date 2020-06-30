@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import posixpath
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -51,7 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'csp.middleware.CSPMiddleware',
+    #'csp.middleware.CSPMiddleware',
 ]
 
 ROOT_URLCONF = 'bitjes.urls'
@@ -128,18 +130,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR,"static")]
-CSRF_COOKIE_SECURE = True
-CSRF_COOKIE_SAMESIRE = 'Strict'
-SESSION_COOKIE_SECURE = True
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_CONTENT_TYPE_NOSNIFF = True
+STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+#CSRF_COOKIE_SAMESIRE = 'Strict'
+#SESSION_COOKIE_SECURE = True
+#SECURE_BROWSER_XSS_FILTER = True
+#SECURE_CONTENT_TYPE_NOSNIFF = True
 #SECURE_SSL_REDIRECT = True
-X_FRAME_OPTIONS = 'SAMEORIGIN' 
-SECURE_HSTS_SECONDS = 300
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
-CSP_DEFAULT_SRC=( "'self'",'https://code.jquery.com/jquery-3.3.1.slim.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' )
-CSP_STYLE_SRC=("'self'", 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', 'http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css', 'http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css' )
-CSP_SCRIPT_SRC=("'self'", 'https://code.jquery.com/jquery-3.3.1.slim.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
-CSP_FONT_SRC=("'self'",)
+#X_FRAME_OPTIONS = 'SAMEORIGIN' 
+#SECURE_HSTS_SECONDS = 300
+#SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+#SECURE_HSTS_PRELOAD = True
+#CSP_DEFAULT_SRC=( "'self'",'https://code.jquery.com/jquery-3.3.1.slim.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' )
+#CSP_STYLE_SRC=("'self'",'*','https://andretest3535353.azurewebsites.net/static/resume/resume.css','https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', 'http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css', 'http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css' )
+#CSP_SCRIPT_SRC=("'self'", 'https://code.jquery.com/jquery-3.3.1.slim.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+#CSP_FONT_SRC=("'self'",)
